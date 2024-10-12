@@ -51,6 +51,9 @@ h3 {
 }
 .tab-link {
   width: 150px;
+  .back {
+    background-color: #909091;
+  }
 }
 button {
   background-color: #e5e2e2;
@@ -62,10 +65,10 @@ button {
   border-bottom: 1px solid #888;
   font-size: 25px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  &:hover {
+  /* &:hover {
     background-color: #909091;
-  }
-  &:focus {
+  } */
+  /* &:focus {
     background-color: #909091;
-  }
+    } */
 }
